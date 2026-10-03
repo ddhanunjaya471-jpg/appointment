@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>MediConnect - Appointment</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Book Appointment</h1>
+
+    </header>
+
+
+    <div class="container">
+
+        <form id="appointmentForm">
+
+
+            <input
+                type="number"
+                id="patient_id"
+                placeholder="Patient ID"
+                required
+            >
+
+
+            <input
+                type="number"
+                id="doctor_id"
+                placeholder="Doctor ID"
+                required
+            >
+
+
+            <input
+                type="date"
+                id="appointment_date"
+                required
+            >
+
+
+            <input
+                type="time"
+                id="appointment_time"
+                required
+            >
+
+
+            <button type="submit">
+
+                Book Appointment
+
+            </button>
+
+
+        </form>
+
+
+        <p id="message"></p>
+
+    </div>
+
+
+    <script src="js/appointments.js"></script>
+
+</body>
+
+</html>
